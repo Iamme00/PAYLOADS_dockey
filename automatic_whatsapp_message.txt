@@ -1,0 +1,95 @@
+REM #Project_aabhash Enjoy!!
+
+DEFINE PHONENUMBER +91XXXXXXXXXX
+DEFINE MESSAGE Hi, this is Iamme_00
+
+REM # Open web browser and navigate to WhatsApp Web
+DELAY 1000
+GUI r
+DELAY 500
+STRING https://web.whatsapp.com
+ENTER
+DELAY 5000
+
+REM # Focus on the search bar
+TAB
+TAB
+TAB
+TAB
+TAB
+TAB
+TAB
+TAB
+
+REM # Type the phone number
+STRING PHONENUMBER
+ENTER
+DELAY 2000
+
+REM # Focus on the message input
+TAB
+TAB
+TAB
+
+REM # Type the message
+STRING MESSAGE
+ENTER
+DELAY 1000
+
+REM #-------------------------------------------------
+REM #-------------------------------------------------
+REM # will check if the program works or not soon
+REM #-------------------------------------------------
+REM #-------------------------------------------------
+
+
+REM # Another one if above is not working:(this is a copied version from someone elses which is said to be working but i dont know lets see)
+REM #-------------------------------------------------
+REM #-------------------------------------------------
+
+DEFINE PHONENUMBER +1XXXXXXXXXX
+DEFINE MESSAGE Hello ma chai Iamme_00
+
+REM #-------------------------------------------------
+REM # Below lines will open search engine and type https://
+DELAY 1000
+GUI r
+DELAY 100
+STRING h
+DELAY 100
+STRING t
+DELAY 100
+STRING t
+DELAY 100
+STRING p
+DELAY 100
+STRING s
+DELAY 500
+DELAY 100
+STRING :
+DELAY 100
+STRING /
+DELAY 100
+STRING /
+DELAY 100
+REM #-------------------------------------------------
+
+REM #-------------------------------------------------
+REM # Below lines will enter wa.me after https://
+REM # Replace the mobile number with your's
+
+STRING wa.me/
+STRING PHONENUMBER
+ENTER
+DELAY 5000
+REM #-------------------------------------------------
+
+REM #-------------------------------------------------
+REM # Below message will be sent to the target number confiugured above
+REM # Replace the message with your own message
+STRING MESSAGE
+TAB
+TAB
+ENTER
+DELAY 1000
+REM #-------------------------------------------------
